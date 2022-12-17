@@ -36,7 +36,7 @@ ORDER  BY ct.customerkey ASC
 
 
 
-/****** Cleaning Product Table  ******/
+/****** Cleaning Dim Product Table  ******/
 
 
 SELECT pd.[productkey],
@@ -59,7 +59,7 @@ ORDER  BY PD.productkey ASC
 
 
 
-/****** Cleaning Internet Sales Table  ******/
+/****** Cleaning Fact Internet Sales Table  ******/
 
 
 SELECT [productkey],
